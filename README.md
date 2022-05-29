@@ -1,5 +1,4 @@
-Process To Run The Application
------
+## Process To Run The Application
 
 STEP 1
 
@@ -41,3 +40,12 @@ Run the application
 ```
 streamlit run app.py
 ```
+
+
+
+### Deployed App
+
+The app can also be viewed using this link, but comprehensive data analysis of larger datasets is not possible due to memory constraints. So it is better to use the above method and run the app through a local machine.
+
+https://share.streamlit.io/charvijindal/automobile_trends/app.py
+

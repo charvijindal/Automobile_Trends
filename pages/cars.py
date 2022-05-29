@@ -79,8 +79,8 @@ def app():
     
     if st.sidebar.checkbox("Count Models with Similar Variant"):
         st.markdown("### Number of Models with Similar Variant")    
-        st.write(df.groupby(['Variant']).count())
-        
+        st.write(df.groupby(['Variant']).count())    
+    
 #     import sweetviz as sv
 
 # my_report = sv.analyze(my_dataframe)
