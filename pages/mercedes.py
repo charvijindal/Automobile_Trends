@@ -8,7 +8,8 @@ import pandas as pd
 # import IPython
 import matplotlib.pyplot as plt
 import seaborn as sns
-    
+
+#Print the sorted data and the graph   
 def visualisation(df, x, y, sum_mean, line_bar):
     
     if(sum_mean == "sum"):
@@ -34,6 +35,7 @@ def visualisation(df, x, y, sum_mean, line_bar):
 
 default_file = ("merc.csv")
 
+#Loads the csv file
 @st.cache
 def load_csv(file):
         csv = pd.read_csv(file)
@@ -52,6 +54,8 @@ def app():
     # if st.sidebar.checkbox("Data Comprehension"):
     #     st.markdown("###Data Comprehension")
     #     st.write(df.info())
+    
+    #Buttons for each of the queries
     if st.sidebar.checkbox("Basic Analysis"):
         # st.markdown("### Data Comprehension")
         # st.markdown(df.info())

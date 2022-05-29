@@ -2,11 +2,8 @@ import os
 import streamlit as st
 import numpy as np
 from PIL import  Image
-
-# Custom imports 
 from multipage import MultiPage
 from pages import eda, mercedes,cars
-#"', machine_learning, metadata, data_visualize, redundant # import your pages here'"
 
 # Create an instance of the app 
 app = MultiPage()
@@ -28,8 +25,6 @@ col2.title("Data Analysis To Determine Automobile Trends")
 app.add_page("Upload and Analyse the Data", eda.app)
 app.add_page("Analysis On Merecedes Dataset", mercedes.app)
 app.add_page("Analysis On Cars Dataset", cars.app)
-# app.add_page("Data Analysis",data_visualize.app)
-# app.add_page("Y-Parameter Optimization",redundant.app)
 
 # The main app
 app.run()
