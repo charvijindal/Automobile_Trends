@@ -1,4 +1,5 @@
 Process To Run The Application
+-----
 
 STEP 1
 
@@ -13,24 +14,30 @@ STEP 3
 
 To create a conda environment run the following command on anaconda prompt.
 
---------------------------------
+```
 conda create -n eda python=3.7.9
-
---------------------------------
+```
 
 STEP 4
 
 To activate the environment
 
----
+```
 conda activate eda
+```
 
----
+STEP 5
 
+Install the necessary libraries
+
+```
 pip install -r requirements.txt
+```
 
+STEP 6
 
-STEP 3
+Run the application
 
+```
 streamlit run app.py
-
+```
