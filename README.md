@@ -22,10 +22,10 @@ STEP 4
 
 To activate the environment
 
---------------------------------
+---
 conda activate eda
 
---------------------------------
+---
 
 pip install -r requirements.txt
 
