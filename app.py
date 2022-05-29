@@ -20,9 +20,9 @@ display = np.array(display)
 # st.title("Data Analysis")
 # st.markdown<img src="Logo.jpg" class="center">
 col1, col2 = st.columns(2)
-col1.image(display, width = 200)
+col1.image(display, width = 300)
 # col2.st.text(" ")
-col2.title("Data Analysis")
+col2.title("Data Analysis To Determine Automobile Trends")
 
 # Add all your application here
 app.add_page("Upload and Analyse the Data", eda.app)
