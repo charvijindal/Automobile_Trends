@@ -28,11 +28,8 @@ def visualisation(df, x, y, sum_mean, line_bar):
         sns.barplot(x=data.index , y=data , palette=pal)
         
     plt.xticks(rotation=70)
-
     plt.title(x + " v/s "+ y + " graph")
-
     plt.savefig(x+"_"+y+".png", bbox_inches="tight")
-    
     st.image(x+"_"+y+".png")
 
 default_file = ("merc.csv")
@@ -128,7 +125,17 @@ def app():
         st.markdown("### Fueltype v/s Mileage")    
         visualisation(df, 'fuelType', 'mileage', 'sum', 'bar')
         st.markdown("""For long distance travel, diesel engines are better.""") 
-       
+        
+    if st.sidebar.checkbox("Conclusion"):
+        st.markdown("### Conclusion") 
+        st.markdown("""Mileage determines the cost of maintaining a car.""") 
+        st.markdown("""Manual transmissions are lighter and have simple designs.""")
+        st.markdown("""Diesel engines are restricted for bigger vehicles
+                    and vehicles that travel often due to a higher 
+                    negative effect on the environment.""")
+        st.markdown("""Miles per gallon number should be greater than 
+                    30 miles/gallon for all the people who want a car
+                    for daily use or for travelling a lot.""") 
     
     
 

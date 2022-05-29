@@ -19,7 +19,7 @@ display = np.array(display)
 # st.image(display, width = 400)
 # st.title("Data Analysis")
 # st.markdown<img src="Logo.jpg" class="center">
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 col1.image(display, width = 200)
 # col2.st.text(" ")
 col2.title("Data Analysis")
