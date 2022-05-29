@@ -1,7 +1,7 @@
 import streamlit as st
-import numpy as np
+# import numpy as np
 import pandas as pd
-import csv
+# import csv
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 
