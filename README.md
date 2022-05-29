@@ -41,6 +41,9 @@ Run the application
 streamlit run app.py
 ```
 
+STEP 7 (Optional)
+
+Use the dataset called Automobile_data.csv from the repository to view the functioning of comprehensive data analysis. Otherwise due to a large number of rows and columns, the generated reports may take time.
 
 
 ### Deployed App
