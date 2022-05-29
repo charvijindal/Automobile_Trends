@@ -1,7 +1,7 @@
 
 
 STEP 1
-clone the repository onto your local machine
+\nclone the repository onto your local machine
 
 STEP 2
 pip install -r requirements.txt
